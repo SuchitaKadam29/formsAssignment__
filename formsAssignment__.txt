@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(191, 234, 97) ;  text-align: center;">
+
+    <p style="font-size:x-small "></p>
+    <h1 style="color: red;">Personal Details </h1>
+    <form action="http://www.google.com" method="post">
+
+        Name: <input type="text" name="Name" id="uid" required> <br><br>
+        Password: <input type="password" id="pid" required> <br><br>
+        E-mail Id: <input type="email" required> <br><br>
+        Gender: <input type="radio">Male
+        <input type="radio">Female <br><br>
+        Contact# : <input type="text" name="Contact"><br>
+
+        <h1 style="color: red;">Educational Qualification </h1>
+        Degree : <select name="--select group--">
+            <option value="--select group--">--select group--</option>
+            <option value="BE">BTECH</option>
+            <option value="BCOM">BCOM</option>
+            <option value="BSC">BSC</option>
+            <option value="ME">ME</option>
+            <option value="MBA">MBA</option>
+        </select> <br><br>
+        Engineering : <select name="--select group--">
+
+            <option value="--select group--">--select group--</option>
+            <option value="IN">Instrumentation</option>
+            <option value="CS">Compter</option>
+            <option value="IT">Information Tech</option>
+            <option value="ME">Mechnical</option>
+            <option value="CE">Civil</option>
+        </select> <br><br>
+
+        Hobbies: <input type="checkbox">playling chess
+        <input type="checkbox">Reading Books <br>
+        <h1 style="color: red;"> Address </h1>
+        <textarea name="add" id="add" cols="40" rows="5"></textarea><br><br>
+
+        Attach Resume : <button type="Choose File">choose file</button> No File choosen <br><br> 
+<button style="background-color:orange " style='font-size:24px'>SUBMIT<i class='fas fa-arrow-circle-right'></i>
+</button>
+
+
+        </file>
+</body>
+
+</html>
